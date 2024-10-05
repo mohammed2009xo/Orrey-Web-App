@@ -497,16 +497,16 @@ body {
   margin-left: -3em; }
 
 .scale-stretched #mars.orbit {
-  width: 72em;
-  height: 72em;
-  margin-top: -36em;
-  margin-left: -36em; }
+  width: 80em;
+  height: 80em;
+  margin-top: -38em;
+  margin-left: -38em; }
 
 .scale-stretched #jupiter.orbit {
-  width: 100em;
-  height: 100em;
-  margin-top: -50em;
-  margin-left: -50em; }
+  width: 110em;
+  height: 110em;
+  margin-top: -55em;
+  margin-left: -55em; }
 
 .scale-stretched #saturn.orbit {
   width: 150em;
@@ -534,16 +534,16 @@ body {
   margin-left: -32em; }
 
 .scale-stretched #asteroid-psyche.orbit {
-  width: 80em;
-  height: 80em;
-  margin-top: -40em;
-  margin-left: -40em; }
+  width: 88em;
+  height: 88em;
+  margin-top: -43em;
+  margin-left: -43em; }
 
 .scale-stretched #asteroid-bennu.orbit {
-  width: 67em;
-  height: 67em;
-  margin-top: -33em;
-  margin-left: -33em; }
+  width: 72em;
+  height: 72em;
+  margin-top: -35em;
+  margin-left: -35em; }
 
 /* --------------------------------------------------------------------------- scaled orbits */
 /* --------------------------------------------------------------------------- distance scale orbits */
@@ -1146,7 +1146,28 @@ dl.infos dt
   font-size: 14px;
   text-shadow: 1px 1px 2px black; }
 
-dt
+#asteroid-2010RF12 dt
+
+{
+  position: absolute;
+  left: -25px;
+  margin-bottom: -15px;
+  bottom: 50px;
+  color: #FFF;
+  font-size: 10px;
+  text-shadow: 1px 1px 2px black;
+}
+#asteroid-bennu dt
+{
+  position: absolute;
+  left: -5px;
+  margin-bottom: -15px;
+  bottom: 40px;
+  color: #FFF;
+  font-size: 10px;
+  text-shadow: 1px 1px 2px black;
+}
+#asteroid-psyche dt
 {
   position: absolute;
   left: -15px;
@@ -1553,6 +1574,11 @@ h1 {
   z-index: -1;       /* جعله خلف المحتوى */
   object-fit: cover; /* التأكد من ملء الفيديو للشاشة */
 }
+
+#myImage {
+  display: none;
+}
+
 
 #asteroid-2010RF12,
 #asteroid-psyche,
